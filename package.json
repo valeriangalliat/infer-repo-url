@@ -1,0 +1,22 @@
+{
+  "name": "infer-repo-url",
+  "version": "0.1.0",
+  "description": "",
+  "license": "Unlicense",
+  "author": {
+    "name": "Val",
+    "url": "https://val.codejam.info/"
+  },
+  "repository": "valeriangalliat/infer-repo-url",
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "node test"
+  },
+  "dependencies": {
+    "hosted-git-info": "^4.0.2",
+    "parse-git-config": "^3.0.0"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
+  }
+}
